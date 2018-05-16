@@ -82,6 +82,22 @@
   align-content: center;
 }
 
+.pages{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.page{
+  margin-top: 3px; 
+}
+
+.page:hover {
+  color: pink;
+  cursor: -webkit-grab
+}
+
 p, .center{
   text-align: center;
 }
