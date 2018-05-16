@@ -1,0 +1,110 @@
+.header-container{
+  background-color:rgb(209, 209, 209);
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header{
+  display: flex; 
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 40;
+  align-content: space-around;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.head-sub{
+  display:flex;
+  justify-content: space-between;
+}
+
+.main {
+  border: 18px solid white;
+  background-color:rgb(209, 209, 209);
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-us-info {
+  background-color:rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boba-container{
+  background-color:rgb(233, 233, 233);
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-container{
+  background-color:rgb(233, 233, 233);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.about-us-item{
+  border: 1px solid #FFF;
+  display: flex;
+  justify-content: center;
+  width: 220px;
+}
+
+.restaurant-item{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.boba-item{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+p, .center{
+  text-align: center;
+}
+
+.boba {
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+img{
+  display: flex;
+  border: 8px double rgb(192, 255, 239);
+  height: 35%;
+  margin: 4px 30px;
+}
+
+.text-info {
+  display: flex;
+  align-items: center;
+  color: rgb(61, 61, 61);
+}
+
+.food{
+  text-align: right;
+}
+
+h2, p {
+  margin: 10px 50px;
+}
+
+.logo{
+  height: 105px
+}
+
+.mint-bar{
+  background-color:rgb(192, 255, 239);
+  height:30px;
+}
