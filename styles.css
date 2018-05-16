@@ -138,3 +138,8 @@ h2, p {
   background-color:rgb(192, 255, 239);
   height:30px;
 }
+
+h1, p, h2, h3{
+  font-family: fantasy;
+  display: flex;
+}
